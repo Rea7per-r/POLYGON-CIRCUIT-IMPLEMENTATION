@@ -36,12 +36,14 @@ This script performs the following actions:
 - Generates a proof from circuit intermediaries with generateProof()
 - Generates calldata with generateCallData()
 - Calls verifyProof() on the verifier contract with calldata
-With these commands, you can compile a ZKP, generate a proof, deploy a verifier, and verify the proof 🎉
+  
+## With these commands, you can compile a ZKP, generate a proof, deploy a verifier, and verify the proof 🎉
 
-Custom Circuits
+# Custom Circuits
 To add a new custom circuit, make sure you make the necessary changes in hardhat.config.ts and circuits.config.json.
 
 Feel free to deploy it on any network, i have deploy it on sepolia testnet.
 
 Author
+
 surajx070@gmail.com
